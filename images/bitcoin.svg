@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.6%" y="-6.5%" width="125.2%" height="118.1%" filterUnits="objectBoundingBox" id="filter-1">
+            
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Webpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1111.000000, -679.000000)" fill-rule="nonzero" fill="#641C95">
+            <g id="ICO-early-1-Copy" filter="url(#filter-1)" transform="translate(1090.000000, 481.000000)">
+                <g id="currency-btc" transform="translate(21.000000, 198.000000)">
+                    <path d="M0.5,3 L4,3 L4,0 L6,0 L6,3 L7.5,3 L7.5,0 L9.5,0 L9.5,3 C15,3 15,9 12,9.25 C16,9 17,17 9.5,17 L9.5,20 L7.5,20 L7.5,17 L6,17 L6,20 L4,20 L4,17 L0.5,17 L1,15 L2,15 C2.55228475,15 3,14.5522847 3,14 L3,6 C3,5.44771525 2.55228475,5 2,5 L0.5,5 L0.5,3 L0.5,3 Z M6,5 L6,9 C6,9 10.5,9.25 10.5,7 C10.5,4.75 6,5 6,5 L6,5 Z M6,10.5 L6,15 C6,15 11.5,15 11.5,12.75 C11.5,10.5 6,10.5 6,10.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

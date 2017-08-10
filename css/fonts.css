@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'DIN Condensed';
+	src: url('../fonts/subset-DINCondensed-Bold.eot');
+	src: url('../fonts/subset-DINCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-DINCondensed-Bold.woff2') format('woff2'),
+		url('../fonts/subset-DINCondensed-Bold.woff') format('woff'),
+		url('../fonts/subset-DINCondensed-Bold.ttf') format('truetype'),
+		url('../fonts/subset-DINCondensed-Bold.svg#DINCondensed-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

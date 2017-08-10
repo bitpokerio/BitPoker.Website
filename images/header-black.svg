@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="27" viewBox="0 0 107 27">
+    <defs>
+        <filter id="a" width="185.7%" height="163.2%" x="-42.9%" y="-31.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.831372549 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="181.2%" height="163.2%" x="-43.8%" y="-31.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="c" width="166.7%" height="168.4%" x="-33.3%" y="-36.8%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="d" width="181.2%" height="163.2%" x="-43.8%" y="-31.6%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.831372549 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="#D40000" d="M6.967 18.94C4.897 15.56 2.721 12.274 0 9.47 2.72 6.664 4.898 3.38 6.967 0c2.07 3.38 4.247 6.664 6.968 9.47-2.721 2.805-4.898 6.09-6.968 9.47z" filter="url(#a)" transform="translate(34 4)"/>
+        <path fill="#000" d="M7.686 0C4.005 5.191.066 8.179 0 12.229c-.021 1.311.696 3.54 2.942 3.967 1.457.276 3.463-.89 3.505-3.26-.006-.472.505-.46.5.187-.068 1.869-.666 4.045-1.672 5.816h4.823c-1.006-1.771-1.604-3.947-1.673-5.816-.005-.646.507-.659.5-.187.042 2.37 2.049 3.536 3.506 3.26 2.246-.426 2.963-2.656 2.941-3.967C15.307 8.179 11.368 5.191 7.686 0z" filter="url(#b)" transform="translate(60 4)"/>
+        <path fill="#000" d="M8.976 0C5.06.084 3.302 4.44 6.203 7.823c.421.493.465.777-.306.303-1.953-1.29-5.7-.442-5.891 3.502-.237 4.86 6.639 6.26 7.93 1.092.068-.545.516-.533.408.241-.118 2.1-.782 4.064-1.695 5.978h4.658c-.913-1.914-1.577-3.877-1.695-5.978-.108-.774.34-.786.408-.241 1.291 5.167 8.167 3.767 7.93-1.092-.192-3.944-3.938-4.792-5.891-3.502-.77.474-.727.19-.306-.303C14.654 4.44 12.897.084 8.98 0h-.004z" filter="url(#c)" transform="translate(4 4)"/>
+        <path fill="#D40000" d="M7.532 18.94s-1.861-3.021-4.373-6.573C1.479 9.991.135 7.417.01 5.201-.133 2.669 1.223.128 3.678.005 6.13-.118 7.128 1.958 7.532 3.67 7.938 1.958 8.934-.118 11.387.005c2.455.123 3.81 2.664 3.668 5.196-.125 2.216-1.469 4.79-3.149 7.166-2.512 3.552-4.374 6.572-4.374 6.572z" filter="url(#d)" transform="translate(88 4)"/>
+    </g>
+</svg>

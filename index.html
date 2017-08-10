@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="Ru-ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitpoker</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+	<link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="icon" type="image/gif" href="images/favicon.png" >
+    <link href="images/favicon.ico" rel="shortcut icon">
+	<link rel="icon" sizes="192x192" href="images/favicon192x192.png">
+	<meta name="theme-color" content="#14004e">	
+</head>
+<body>
+   	<div class="preloader" id="js-preloader">
+   		<img src="images/preloader.svg" alt="">
+   		<div class="spiner-blc">
+			<div class="spiner clearfix">
+				<svg class="circular" viewBox="25 25 50 50">
+					<circle class="path-g" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"/>
+					<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"/>					
+				</svg>
+			</div>
+		</div>
+   	</div>
+    <div class="wrapper">
+    	<nav class="main-menu">
+    		<ul class="main-menu__list">
+    			<li class="main-menu__item active"><a href="#welcome" class="main-menu__link">Welcome</a></li>
+    			<li class="main-menu__item"><a href="#about" class="main-menu__link">About</a></li>
+    			<li class="main-menu__item"><a href="#features" class="main-menu__link">Features</a></li>
+    			<li class="main-menu__item"><a href="#architecture" class="main-menu__link">Architecture</a></li>
+    			<li class="main-menu__item"><a href="#ico" class="main-menu__link">ICO</a></li>
+    			<li class="main-menu__item"><a href="#team" class="main-menu__link">Team</a></li>
+    			<li class="main-menu__item"><a href="#blog" class="main-menu__link">Blog</a></li>
+    			<li class="main-menu__item"><a href="#media" class="main-menu__link">Media</a></li>
+    			<li class="main-menu__item"><a href="#contacts" class="main-menu__link">Contacts</a></li>
+    		</ul>
+    	</nav>
+    	<div class="content">
+    	    <div class="white-overlay">
+    		<header class="header clearfix">    			
+    			<div class="header__bar">
+    				<a href="pdf/White%20Paper_Bitpoker.pdf" target="_blank" class="btn header__btn">White paper</a>
+    				<a href="mailto:bitpoker@protonmail.com">bitpoker@protonmail.com</a>
+    				<a class="header__lang" href="#">ENG</a>
+    			</div>
+    			<div class="logo">
+    				<img src="images/logo.svg" alt="Bitpoker">
+    			</div>
+    		</header>
+    		<section class="sec js-sec welcome" id="welcome">
+    			<div class="welcome__decor">
+    				<img src="images/poly.svg" alt="" class="welcome__net">
+    				<img src="images/card-1.svg" alt="" class="welcome__card welcome__card--1">
+    				<img src="images/card-2.svg" alt="" class="welcome__card welcome__card--2">
+    				<img src="images/card-3.svg" alt="" class="welcome__card welcome__card--3">
+    				<img src="images/card-4.svg" alt="" class="welcome__card welcome__card--4">
+    				<img src="images/card-5.svg" alt="" class="welcome__card welcome__card--5">
+    			</div> 
+    			<div class="welcome__form-wrap">
+    				<div class="container container--long clearfix">
+    					<div class="welcome__form">
+    						<h2 class="welcome__form-title">ICO early round <br>is currently <br>finished</h2>
+    						<p>The token launch has been completed successfully. The maximum cap was raised.</p>
+    						<div class="welcome__form-b">500.25678 <span>BTC</span></div>
+    						<p>with</p>
+    						<div class="welcome__form-users">277 <span>participants</span></div>
+    					</div>
+					</div>
+    			</div> 			
+    			<div class="welcome__middle">
+    				<h1 class="welcome__title">The future of online poker</h1>
+    				<div class="welcome__subtitle">Fully decentralised, online poker platform based on blockchain technology</div>
+    			</div>
+    		</section>    		
+    		<section class="economy" id="economy">
+    			<div class="container">
+    				<h2 class="sec-title sec-title--white">Online poker <br>Economy</h2>
+    				<div class="economy__counter">
+    					<div class="economy__counter-name">Over</div>
+    					<div class="economy__counter-row">
+    						<span class="economy__counter-val">
+    							<span class="economy__coun number" id="js-count-1" data-num="50">10</span>,000,000
+							</span>
+   							<span> players online</span>
+    					</div>
+    				</div>
+    				<div class="economy__counter">
+    					<div class="economy__counter-name">Over</div>
+    					<div class="economy__counter-row">
+    						<span class="economy__counter-val">
+    							<span class="economy__coun number" id="js-count-2" data-num="300">100</span>,000
+							</span>
+   							<span> playing online poker right now</span>
+    					</div>
+    				</div>
+    				<div class="economy__counter">
+    					<div class="economy__counter-name">Over</div>
+    					<div class="economy__counter-row">
+    						<span class="economy__counter-val pulse wow animated">
+    							$<span class="economy__coun" id="js-count-3">1</span>,000,000,000
+							</span>
+   							<span> involved</span>
+    					</div>
+    				</div>
+    			</div>
+			</section>  			
+   			<section class="sec about">
+    			<div class="container js-sec container--long" id="about">
+    				<div class="about-wrap clearfix">
+    					<div class="about__content zoomIn wow animated">
+    						<h2 class="sec-title sec-title--red">About</h2>
+    						<div class="about__txt">
+    							<p>The main purpose behind the launch of BitPoker is to introduce <strong>a true peer-to-peer platform and protocol</strong>, that allows users to play poker uncensored over the internet. The project aims to be the OpenBazaar of online poker industry, by stressing on replacing the centralized gaming models with a more transparent, secure and decentralized structure.</p>
+    							<p>At BitPoker, no central actor can rig the game and change the outcomes of the bets. It is achieved by utilizing Mental Poker, a non-shuffling poker protocol which allows players to generate encrypted random numbers on the fly. We understand the grave importance of pseudorandom generation of outcomes in a betting system, and we are hell-bent on delivering it to our players.</p>
+    						</div>
+    					</div>
+    					<div class="about__shem zoomIn wow animated">
+    						<img src="images/users-peer-to-peer.svg" alt="users-peer-to-peer">
+    					</div>
+    				</div>
+    			</div>
+			</section>  			
+   			<section class="sec js-sec features" id="features">
+    			<div class="container">
+    				<h2 class="sec-title sec-title--red">Features</h2>
+    				<div class="features__wrap flex">
+    					<div class="features__item item zoomIn wow animated">
+    						<div class="features__img">
+    							<img src="images/fast-game.svg" alt="Fast game">
+    						</div>
+    						<h3 class="features__item-title blue-title">Fast game</h3>
+    						<div class="features__item-txt">Using Whisper or ZeroMQ, users will be able to send/receive messages quickly across the network, ensuring a faster gameplay.</div>
+    					</div>
+    					<div class="features__item item zoomIn wow animated">
+    						<div class="features__img">
+    							<img src="images/fast-trans.svg" alt="Fast transactions">
+    						</div>
+    						<h3 class="features__item-title blue-title">Fast transactions</h3>
+    						<div class="features__item-txt">Deposits and withdrawals will be handled on the Bitcoin network, which is much faster than any other traditional payment method.</div>
+    					</div>
+    					<div class="features__item item zoomIn wow animated">
+    						<div class="features__img">
+    							<img src="images/funds-control.svg" alt="Funds control">
+    						</div>
+    						<h3 class="features__item-title blue-title">Funds control</h3>
+    						<div class="features__item-txt">Players will not be asked to make a deposit to play; they are opening payment channels, which means funds are always in their control, and never held on a centralized server or wallet..</div>
+    					</div>
+    					<div class="features__item item zoomIn wow animated">
+    						<div class="features__img">
+    							<img src="images/fair-play.svg" alt="Fair play">
+    						</div>
+    						<h3 class="features__item-title blue-title">Fair play</h3>
+    						<div class="features__item-txt">Using mental poker algorithms, users are encouraged to inspect the shuffling algorithms, software, and messages over the wire.</div>
+    					</div>
+    					<div class="features__item item zoomIn wow animated">
+    						<div class="features__img">
+    							<img src="images/private.svg" alt="Private">
+    						</div>
+    						<h3 class="features__item-title blue-title">Private</h3>
+    						<div class="features__item-txt">The first clients will communicate by the encrypted whisper protocol. Should there be demand, I TOR client will also be developed.</div>
+    					</div>
+    				</div>
+    			</div>
+			</section>  			
+   			<section class="sec architecture">
+    			<div class="container container--long js-sec clearfix" id="architecture">
+    				<h2 class="sec-title sec-title--white zoomIn wow animated">Architecture</h2>
+    				<div class="architecture__txt zoomIn wow animated">
+    					<p>The BitPoker client is written in C#. Net that will support Linux, Mac and Windows OS. The software is designed to be modular and extensible, and it consists of five layers mentioned and explained as follows:</p>
+    					<ul>
+							<li>&nbsp; • &nbsp; &nbsp;Presentation/UI Layer</li>
+							<li>&nbsp; • &nbsp; &nbsp;Microservices/Controllers Layer</li>
+							<li>&nbsp; • &nbsp; &nbsp;Consensus Layer</li>
+							<li>&nbsp; • &nbsp; &nbsp;Communication Layer</li>
+							<li>&nbsp; • &nbsp; &nbsp;Repository Layer</li>
+    					</ul>
+    				</div>
+    				<div class="architecture__layers">
+    					<div class="architecture__layer">
+    						<h3 class="bounceInDown wow animated">UI Layer</h3>
+    						<div class="architecture__layer-img bounceInDown wow animated">
+    							<img src="images/card-scale-1.png" alt="">
+    						</div>
+    					</div>
+    					<div class="architecture__layer">
+    						<h3 class="bounceInDown wow animated">Controllers Layer</h3>
+    						<div class="architecture__layer-img bounceInDown wow animated">
+    							<img src="images/card-scale-2.png" alt="">
+    						</div>
+    					</div>
+    					<div class="architecture__layer">
+    						<h3 class="bounceInDown wow animated">Consensus Layer</h3>
+    						<div class="architecture__layer-img bounceInDown wow animated">
+    							<img src="images/card-scale-3.png" alt="">
+    						</div>
+    					</div>
+    					<div class="architecture__layer">
+    						<h3 class="bounceInDown wow animated">Communication Layer</h3>
+    						<div class="architecture__layer-img bounceInDown wow animated">
+    							<img src="images/card-scale-4.png" alt="">
+    						</div>
+    					</div>
+    					<div class="architecture__layer">
+    						<h3 class="bounceInDown wow animated">Repository Layer</h3>
+    						<div class="architecture__layer-img bounceInDown wow animated">
+    							<img src="images/card-scale-5.png" alt="">
+    						</div>
+    					</div>
+    				</div>
+				</div>
+			</section>  			
+   			<section class="sec js-sec ico" id="ico">
+    			<div class="container">
+    				<h2 class="sec-title sec-title--red">ICO Details</h2>
+    				<div class="ico__wrap clearfix">
+    					<div class="ico__bar">    						
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">CHIP Token</h3>
+    							<div class="ico__item-txt zoomIn wow animated">will be used as game chips or for mining rake on Bitcoin tables</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Total amount</h3>
+    							<div class="ico__item-txt zoomIn wow animated">100.000.000 CHIP</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Token Pre-order</h3>
+    							<div class="ico__item-txt zoomIn wow animated">starts on the 15th of August 2017, no discounts, no private deals</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Token Launch </h3>
+    							<div class="ico__item-txt zoomIn wow animated">starts on the 5th of September 2017, ends on the 5th of October 2017</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Accepted currencies</h3>
+    							<div class="ico__item-txt zoomIn wow animated">BTC, BCC, ETH, ETC (Pre-order round BTC only)</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Token distribution date</h3>
+    							<div class="ico__item-txt zoomIn wow animated">in 7 days after Token Launch ends</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Hard cap</h3>
+    							<div class="ico__item-txt zoomIn wow animated">Hidden cap</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Minimal Viable Product</h3>
+    							<div class="ico__item-txt zoomIn wow animated">Q4 2017</div>
+    						</div>
+    						<div class="ico__item">
+    							<h3 class="ico__item-title zoomIn wow animated">Bonus schedule</h3>
+    							<div class="ico__item-txt zoomIn wow animated">No Bonuses, no discounts</div>
+    						</div>   						
+    					</div>
+    					<div class="ico__content zoomIn wow animated">
+    						<h3 class="blue-title">BENEFITS FOR TOKEN HOLDERS<br>FOR TOKEN HOLDERS</h3>
+    						<div class="ico__content-txt">
+    							<ul>
+									<li>CHIP token holders can operate Bitcoin tables themselves and <strong>charge a small rake</strong>, paid out in Bitcoin.</li>	
+									<li><strong>Rake free play</strong> using CHIP tokens.</li>
+									<li>As adoption of the platform grows, there will be an increased demand for CHIP token and <strong>limited supply</strong>.</li>
+									<li>The product can also <strong>be white labelled</strong>, and packaged to online casinos and poker startups.</li>
+    							</ul>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="token">
+    					<h3 class="blue-title token__title">Token distribution</h3>
+    					<div class="token__wrap">
+    						<div class="token__item">
+    							<div class="token__img bounceInDown wow animated"><img src="images/coin-1.png" alt=""></div>
+    							<div class="token__persent">60%</div>
+    							<div class="token__txt">Will be sold on ICO</div>
+    						</div>
+    						<div class="token__item">
+    							<div class="token__img bounceInDown wow animated"><img src="images/coin-2.png" alt=""></div>
+    							<div class="token__persent">10%</div>
+    							<div class="token__txt">Will be used for Developement in 2020</div>
+    						</div>
+    						<div class="token__item">
+    							<div class="token__img bounceInDown wow animated"><img src="images/coin-3.png" alt=""></div>
+    							<div class="token__persent">10%</div>
+    							<div class="token__txt">Will be used for Developement in 2021</div>
+    						</div>
+    						<div class="token__item">
+    							<div class="token__img bounceInDown wow animated"><img src="images/coin-4.png" alt=""></div>
+    							<div class="token__persent">20%</div>
+    							<div class="token__txt">Teams share (3 years lockout period)</div>
+    						</div>
+    					</div>
+    				</div>
+				</div>
+			</section>  			
+   			<section class="sec js-sec team" id="team">
+    			<div class="container">
+    				<h2 class="sec-title sec-title--white">Team</h2>
+    				<div class="team__wrap flex">
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-1.png" alt="Dmitrii Motorov"></div>
+    						<h3 class="team__name">Dmitrii Motorov</h3>
+    						<div class="team__status">Chief Executive Officer</div>
+    						<a href="mailto:motorovd@gmail.com" class="team__mail">motorovd@gmail.com</a>
+    						<div class="team__link-bar clearfix">
+    							<a href="https://www.facebook.com/motorovd" class="team__link team__link--fb" target="_blank" title="facebook"></a>
+    							<a href="https://www.linkedin.com/in/motorovd/" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Dmitrii is a professional poker player for eleven years. Playing online and life poker worldwide now he is looking for implementation of great poker world to impressive blockchain world.</div>
+    					</div>
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-2.png" alt="Lucas Cullen"></div>
+    						<h3 class="team__name">Lucas Cullen</h3>
+    						<div class="team__status">Chief Technical Officer</div>
+    						<a href="mailto:lucas@bitpoker.io" class="team__mail">lucas@bitpoker.io</a>
+    						<div class="team__link-bar clearfix">
+<!--    							<a href="https://www.facebook.com/lucascullen" class="team__link team__link--fb" target="_blank" title="facebook"></a>-->
+    							<a href="https://www.linkedin.com/in/lucascullen/" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Lucas is a seasoned software developer and has been active in the bitcoin space since 2011.  He first played online poker on Yahoo back in 2001.  The project is his brain child.  Favorite game $2/5 No Limit Texas Holdem.</div>
+    					</div>
+<!--
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-1.png" alt=""></div>
+    						<h3 class="team__name">Dmitrii Motorov</h3>
+    						<div class="team__status">General manager <br>& poker adviser </div>
+    						<a href="mailto:motorov@bitpoker.io" class="team__mail">motorov@bitpoker.io</a>
+    						<div class="team__link-bar clearfix">
+    							<a href="#" class="team__link team__link--fb" target="_blank" title="facebook"></a>
+    							<a href="#" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Dmitrii is a professional poker player for eleven years. Playing online and life poker worldwide now he is looking for implementation of great poker world to impressive blockchain world.</div>
+    					</div>
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-2.png" alt=""></div>
+    						<h3 class="team__name">Dmitrii Motorov</h3>
+    						<div class="team__status">General manager <br>& poker adviser </div>
+    						<a href="mailto:motorov@bitpoker.io" class="team__mail">motorov@bitpoker.io</a>
+    						<div class="team__link-bar clearfix">
+    							<a href="#" class="team__link team__link--fb" target="_blank" title="facebook"></a>
+    							<a href="#" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Dmitrii is a professional poker player for eleven years. Playing online and life poker worldwide now he is looking for implementation of great poker world to impressive blockchain world.</div>
+    					</div>
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-1.png" alt=""></div>
+    						<h3 class="team__name">Dmitrii Motorov</h3>
+    						<div class="team__status">General manager <br>& poker adviser </div>
+    						<a href="mailto:motorov@bitpoker.io" class="team__mail">motorov@bitpoker.io</a>
+    						<div class="team__link-bar clearfix">
+    							<a href="#" class="team__link team__link--fb" target="_blank" title="facebook"></a>
+    							<a href="#" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Dmitrii is a professional poker player for eleven years. Playing online and life poker worldwide now he is looking for implementation of great poker world to impressive blockchain world.</div>
+    					</div>
+    					<div class="team__item item zoomIn wow animated">
+    						<div class="team__photo"><img src="images/example/team-2.png" alt=""></div>
+    						<h3 class="team__name">Dmitrii Motorov</h3>
+    						<div class="team__status">General manager <br>& poker adviser </div>
+    						<a href="mailto:motorov@bitpoker.io" class="team__mail">motorov@bitpoker.io</a>
+    						<div class="team__link-bar clearfix">
+    							<a href="#" class="team__link team__link--fb" target="_blank" title="facebook"></a>
+    							<a href="#" class="team__link team__link--in" target="_blank" title="linkedin"></a>
+    						</div>
+    						<div class="team__txt">Dmitrii is a professional poker player for eleven years. Playing online and life poker worldwide now he is looking for implementation of great poker world to impressive blockchain world.</div>
+    					</div>
+-->
+    				</div>
+				</div>
+			</section>
+  			<div class="blog-media-container">
+				<section class="sec js-sec blog" id="blog">
+					<div class="container">
+						<h2 class="sec-title sec-title--red">Blog</h2>
+						<div class="blog__wrap flex">
+							<!-- <a href="#" class="blog__item item zoomIn wow animated">
+								<div class="blog__img"></div>
+								<div class="blog__txt">
+									<h3 class="blog__title blue-title">Title of the Post</h3>
+									<div class="blog__spoiler">LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had access to before… </div>
+								</div>
+							</a>
+							<a href="#" class="blog__item item zoomIn wow animated">
+								<div class="blog__img"></div>
+								<div class="blog__txt">
+									<h3 class="blog__title blue-title">Title of the Post</h3>
+									<div class="blog__spoiler">LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had access to before… </div>
+								</div>
+							</a>
+							<a href="#" class="blog__item item zoomIn wow animated">
+								<div class="blog__img"></div>
+								<div class="blog__txt">
+									<h3 class="blog__title blue-title">Title of the Post</h3>
+									<div class="blog__spoiler">LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had access to before… </div>
+								</div>
+							</a> -->
+						</div>
+						<a href="https://medium.com/feed/why-we-need-decentralised-poker" target="_blank" class="btn btn--more">Read more</a>
+					</div>
+				</section>
+				<section class="sec js-sec media" id="media">
+					<div class="container">
+						<h2 class="sec-title sec-title--red">Media</h2>
+						<div class="media-slider media-slider--desc" id="js-slider">
+							<div>
+								<div class="media-slide">
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+								</div>
+							</div>
+							<div>
+								<div class="media-slide">
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+								</div>
+							</div>
+							<div>
+								<div class="media-slide">
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+									<a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a>
+								</div>
+							</div>						
+						</div>
+						<div class="media-slider media-slider--mob" id="js-slider-mob">							
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>
+							<div><a href="#" class="media-slide__link"><img src="images/example/logo.png" alt=""></a></div>	
+						</div>
+					</div>
+				</section>
+  			</div>
+  			</div>
+  			<div class="js-sec contact-booofer" id="contacts"></div>
+   			<section class="sec contacts fix-contacts">
+   				<div class="welcome__decor">
+    				<img src="images/poly.svg" alt="" class="welcome__net">    				
+    			</div>
+    			<div class="container container--long">
+    				<div class="contacts__wrap">
+						<div class="contacts__col">
+							<h2 class="sec-title sec-title--white">Contact us</h2>
+							<div class="contacts__link-bar">
+								<a href="mailto:bitpoker@protonmail.com" class="contacts__link contacts__link-mail">bitpoker@protonmail.com</a>
+								<a target="_blank" href="https://t.me/bitpokerio" class="contacts__link contacts__link-telegram">Telegram</a>
+<!--								<a target="_blank" href="skype:[имя пользователя skype]?call" class="contacts__link contacts__link-skype">Skype</a>-->
+							</div>
+						</div>
+						<div class="contacts__col">
+							<h2 class="sec-title sec-title--white">Follow us</h2>
+							<div class="contacts__link-bar">
+								<a target="_blank" href="https://www.facebook.com/bitpokerio/" class="contacts__link contacts__link-fb">Facebook</a>
+								<a target="_blank" href="https://twitter.com/bitpokerio" class="contacts__link contacts__link-tw">Twitter</a>
+								<a target="_blank" href="https://medium.com/why-we-need-decentralised-poker" class="contacts__link contacts__link-me">Medium</a>
+								<a target="_blank" href="https://www.linkedin.com/bitpokerio" class="contacts__link contacts__link-in">LinkedIn</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="contacts__copyright">
+						<a href="pdf/White%20Paper_Bitpoker.pdf" target="_blank" class="btn header__btn header__btn--footer">White paper</a>
+						<p>Bitpoker.io and related rights belong to BITPOKERIO S.L.R. incorporated in Costa Rica San Jose- Montes de Oca by the legalization number 4062000701644. <br>ID number 3-102-740980</p>
+					</div>
+				</div>
+			</section>    		
+    	</div>
+    </div> 
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/slick.min.js"></script><!--слайдеры и карусели-->
+    <script>
+        /*карусель*/        
+		$("#js-slider").slick({
+            infinite: false,
+            arrows: false,
+            dots: true,
+			fade: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });	
+		$("#js-slider-mob").slick({
+            infinite: false,
+            arrows: false,
+            dots: true,
+			fade: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+			responsive: [
+				{
+				  breakpoint: 768,
+				  settings: {
+					dots: false,
+					  infinite: true,
+					slidesToShow: 2,
+					slidesToScroll: 1
+				  }
+				},
+				{
+				  breakpoint: 480,
+				  settings: {
+					dots: false,
+					  infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  }
+				}
+			]
+        });	
+    </script>
+    <script src="js/wow.js"></script>  
+    <script>new WOW().init();</script> 
+    <script src="js/main.js"></script>
+
+</body>
+</html>
