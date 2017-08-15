@@ -1055,13 +1055,13 @@ a.header__btn:hover{
 	bottom: 72px;
 }
 .welcome__form{
-	width: 222px;
+	width: 234px;
   	border-radius: 12px;
     background-image: url(../images/bg-card.svg), -webkit-linear-gradient(#dca5ff, #c8b5ea);
     background-image: url(../images/bg-card.svg), -o-linear-gradient(#dca5ff, #c8b5ea);
     background-image: url(../images/bg-card.svg), linear-gradient(#dca5ff, #c8b5ea);
-	-webkit-background-size: cover, auto;
-	background-size: cover, auto;
+	-webkit-background-size: 100% 100%, auto;
+	background-size: 100% 100%, auto;
   	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 	padding: 20px 20px 22px 20px;
 	color: #240066;

@@ -1,44 +1,4 @@
 $(document).ready(function(){
-
-	// START parse json feed
-
-	var $content = $('.blog__wrap');
-	var data = {
-		rss_url: 'https://medium.com/feed/why-we-need-decentralised-poker'
-	};
-	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
-		if (response.status == 'ok') {
-			var output = '';
-			$.each(response.items, function (k, item) {
-				var visibleSm;
-				if(k < 3) {
-				output += '<div class="blog__item item zoomIn wow animated">';
-				var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
-				var srcIndex = item.description.substring(tagIndex).indexOf('src=') + tagIndex; // Find where the src attribute starts
-				var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
-				var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
-				var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
-				output += '<div class="blog__img"><a href="' + item.link + '"><img src="' + src + '" width="288px" height="240px" style="width:288px"></a></div>';
-				output += '<div class="blog__txt">';
-				output += '<h3 class="blog__title blue-title"><a href="' + item.link + '">' + item.title + '</a></h3>';
-				var yourString = item.description.replace(/<img[^>]*>/g,""); //replace with your string.
-				var maxLength = 120 // maximum number of characters to extract
-				//trim the string to the maximum length
-				var trimmedString = yourString.substr(0, maxLength);
-				//re-trim if we are in the middle of a word
-				trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
-				output += '<div class="blog__spoiler"><a href="' + item.link + '">' + trimmedString + '...</a></div>';
-				output += '</div></div>';
-				}
-				return k < 2;
-			});
-			$content.html(output);
-			// console.log(output);
-		}
-	});
-
-	// END parse json feed
-
 	
  	/*кнопка скролл*/
     $('.main-menu__link').click(function(e){
